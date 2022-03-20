@@ -29,13 +29,13 @@ Go to the project directory
 Set preffered Password for MySQL
 
 ```bash
-local/conf/mysql/mysql-cli.cnf
+  local/conf/mysql/mysql-cli.cnf
 ```
 
 Set preffered memory and cores for WSL ( default 16 GB & 4 Cores )
 
 ```bash
-local/conf/mysql/mysql-cli.cnf 
+  local/conf/mysql/mysql-cli.cnf 
 ``` 
 
 Run docker compose to pull images and build containers
@@ -48,7 +48,7 @@ Run docker compose to pull images and build containers
 ## Restoring a database backup
 
 ```docker
-cat /home/user/backups/sugar.sql | docker exec -i local-mysql-server-1 /usr/bin/mysql -u root --password=YOUR_PASS db_name
+  cat /home/user/backups/sugar.sql | docker exec -i local-mysql-server-1 /usr/bin/mysql -u root --password=YOUR_PASS db_name
 ```
 
 
