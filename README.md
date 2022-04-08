@@ -17,7 +17,7 @@ Development envrionment for Sugar that uses docker with WSL2 as the backend
 Clone the project to your user's home directory in ubuntu
 
 ```bash
-  git clone https://github.com/PetarT/SugarCRMDockerDev.git local
+  git clone https://github.com/hghazzawi/SugarCRMDockerDev.git local
 ```
 
 Go to the project directory
