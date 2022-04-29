@@ -51,6 +51,11 @@ Run docker compose to pull images and build containers
   cat /home/user/backups/sugar.sql | docker exec -i local-mysql-server-1 /usr/bin/mysql -u root --password=YOUR_PASS db_name
 ```
 
+## Running php cli commands on Sugar instance
+
+```docker
+  docker exec -i local-web-server-1 php -f instance/script.php
+```
 
 ## Visual Studio Code SugarCRM Snippets
 
