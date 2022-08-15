@@ -1,4 +1,4 @@
-FROM php:7.3.27-apache
+FROM php:7.4.29-apache
 
 RUN apt-get update && apt-get install -y wget bash nano coreutils libc-client-dev libkrb5-dev libpng-dev libsodium-dev libgmp-dev libzip-dev libargon2-dev libxml2-dev && rm -r /var/lib/apt/lists/*
 
