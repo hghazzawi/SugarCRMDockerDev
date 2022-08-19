@@ -32,7 +32,7 @@ Set preferred Password for MySQL
   local/conf/mysql/mysql-cli.cnf
 ```
 
-Set preferred memory and cores for WSL ( default 16 GB & 4 Cores )
+Set preferred memory and cores for WSL ( default 4 GB & 2 Cores )
 
 ```bash
   local/conf/wsl.conf
