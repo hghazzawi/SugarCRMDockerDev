@@ -43,6 +43,12 @@ Run docker compose to pull images and build containers
 ```bash
   docker compose up
 ```
+## Upgrade
+
+When upgrading any versions of the software installed please run the following after making the changes to the docker file
+```bash
+  docker-compose up -d --force-recreate --build
+```
 
 
 ## Restoring a database backup
