@@ -54,13 +54,13 @@ When upgrading any versions of the software installed please run the following a
 ## Restoring a database backup
 
 ```docker
-  cat /home/user/backups/sugar.sql | docker exec -i local-mysql-server-1 /usr/bin/mysql -u root --password=YOUR_PASS db_name
+  cat /home/user/backups/sugar.sql | docker exec -i local_mysql-server_1 /usr/bin/mysql -u root --password=YOUR_PASS db_name
 ```
 
 ## Running php cli commands on Sugar instance
 
 ```docker
-  docker exec -i local-web-server-1 php -f instance/script.php
+  docker exec -i local_web-server_1 php -f instance/script.php
 ```
 
 ## Visual Studio Code SugarCRM Snippets
